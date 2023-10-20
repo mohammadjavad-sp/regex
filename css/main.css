@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../media/iranyekan.woff);
+}
+div.container {
+  width: 100%;
+  height: 100vh;
+  background: url(../media/1.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+}
+input#search {
+  direction: rtl;
+  border: unset;
+  outline: unset;
+  height: 30px;
+  font-family: yekan;
+  padding-right: 20px;
+  background-color: rgb(235, 235, 235);
+}
+
+#data {
+  width: 55%;
+  margin: 0 auto;
+  background: linear-gradient(to right, #5c447e, #593d31);
+  text-align: justify;
+  padding: 25px;
+  font-size: 18px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  direction: rtl;
+  font-family: yekan;
+  color: lightgray;
+}
+.box {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: linear-gradient(to right, #5c447e, #593d31);
+  padding: 30px 0;
+  border-radius: 20px 20px 0 0;
+  box-shadow: 5px 5px 5px black;
+}
+div.box > button {
+
+  font-family: yekan;
+  cursor: pointer;
+  background-color: #8b97ba;
+  color: white;
+  padding: 5px 10px;
+  
+}
+span {
+  background-color: yellow;
+  color: black;
+}
